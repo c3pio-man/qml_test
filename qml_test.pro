@@ -48,7 +48,7 @@ contains (PLATFORM, arm) {
     CONFIG += link_pkgconfig
     PKGCONFIG += freetype2
     DEFINES += "EMULATOR=1"
-    LIBS += -L$$(PB_SDK_DIR)/usr/lib -L$$(PB_SDK_DIR)/usr/local/lib -lcommon_utilities -ljpeg -lttsengine -linkview -lhwconfig
+    LIBS += -L$$(PB_SDK_DIR)/usr/lib -L$$(PB_SDK_DIR)/usr/local/lib -lcommon_utilities -ljpeg -linkview -lhwconfig
     INCLUDEPATH += $$(PB_SDK_DIR)/usr/local/include $$(PB_SDK_DIR)/usr/include /usr/include/jsoncpp $$PWD/src
 }
 
