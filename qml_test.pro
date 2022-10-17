@@ -1,3 +1,4 @@
+TARGET = qml_test.app
 TEMPLATE = app
 
 QT += qml quick
